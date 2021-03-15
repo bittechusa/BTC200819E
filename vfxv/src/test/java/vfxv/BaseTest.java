@@ -11,6 +11,7 @@ public class BaseTest {
 	@Before
 	public void start() {
 	DOMConfigurator.configure("log4j.xml");	
+	log.info("file configured");
 	}
 	@Test
 	public void test1() {
