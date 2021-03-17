@@ -10,7 +10,7 @@ public class BaseTest {
 	Logger log=Logger.getLogger(BaseTest.class);
 	@Before
 	public void start() {
-		log.info("file initialized");
+	log.info("file initialized");
 	DOMConfigurator.configure("log4j.xml");	
 	log.info("file configured");
 	}
